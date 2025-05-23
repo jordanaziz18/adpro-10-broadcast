@@ -14,4 +14,7 @@ The experiment demonstrates the effectiveness of asynchronous programming in rea
 
 the Ports for both the server and also the client need to be the same port value such both need to be 8080 to have the code work properly. if one of them are not the same we can not make a connection between the server and client.
 
+## small changes
 ![alt text](image-4.png)
+
+The experiment involved altering the server to display the sender's IP address and port in broadcasted messages, enabling easier identification of message origins without usernames. The addr's socket address was added to the server-side message, resulting in messages with the sender's source address, facilitating communication tracking in multi-client settings and increasing transparency in client-server messaging.
